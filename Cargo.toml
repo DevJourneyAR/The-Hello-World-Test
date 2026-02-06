@@ -1,8 +1,9 @@
 [package]
-name = "snyk-connection-test"
-version = "0.1.0"
+name = "sovereign-sqrp-protocol"
+version = "1.0.0"
+authors = ["DevJourneyAR"]
 edition = "2021"
 
 [dependencies]
-# Using a single, standard library to test the scan
+# Required to trigger Snyk vulnerability database
 serde = "1.0"
